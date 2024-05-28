@@ -105,17 +105,22 @@ Run the Frontend and Backend, connected to the Solo network and pointing to your
 yarn dev 
 ```
 
-### Setting up rewards
+### Setting up rewards 💰
 Run vechain devpal 
 ```bash
 npx @vechain/devpal http://localhost:8669
 ```
 
-Open the `Inspector` tab and perform the following transactions:
+Open the `Inspector` tab and perform the following transactions. All transactions must be made with the account used to deploy the contracts previously.
 - **Add Contracts:** Add the EcoEarn contract and the Token contract deployed previously. Addresses can be found in the `config-contracts` package. ABIs can be found in the artifacts folder of the `contracts` app.
+![image](https://github.com/pierobassa/x-dapp-template/assets/64158778/53014ebc-c6ea-47d8-9aa1-9d63bc084efb)
 - **Approve token:** Approve the EcoEarn contract to spend your tokens
+![image](https://github.com/pierobassa/x-dapp-template/assets/64158778/7224c1b7-edda-4943-b7f0-18c4b1997005)
 - **Claim rewards:** Claim rewards for the EcoEarn contract
+![image](https://github.com/pierobassa/x-dapp-template/assets/64158778/eb54c6ee-aadc-4b68-8d30-e95a8aa0a7e3)
 - **Trigger cycle:** Trigger the cycle for the EcoEarn contract
+![image](https://github.com/pierobassa/x-dapp-template/assets/64158778/5c002953-b1e4-45c7-a195-7e978f14ee3a)
+
 
 ## Disclaimer ⚠️
 
